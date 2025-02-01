@@ -4,9 +4,6 @@ import ProductList from "./ProductList";
 
 const API_URL = "https://api.jsonbin.io/v3/b/679d36a5acd3cb34a8d62ea0";
 
-export async function generateStaticParams() {
-  return [];
-}
 
 async function getProducts() {
   try {
