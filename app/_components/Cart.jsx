@@ -50,7 +50,7 @@ const Cart = ({ cartIconRef }) => {
             router.push("/cart");
             cartIconRef.current.click();
           }}
-          className="block rounded border border-gray-600 px-5 py-3 text-sm text-gray-600 transition hover:ring-1 hover:ring-gray-400"
+          className="block rounded border border-gray-600 px-5 py-3 text-sm text-gray-600 transition hover:ring-1 hover:ring-gray-400 mb-4"
         >
           View my cart ({cart?.length})
         </button>
